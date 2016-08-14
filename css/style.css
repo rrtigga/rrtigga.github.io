@@ -341,6 +341,55 @@ button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hov
 }
 
 
+/* --------------- Top-Strip --------------- */
+#top-strip {
+	height: 250px;
+}
+
+@media only screen and (max-width: 480px) {
+	#top-strip {
+		margin-bottom: 20%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#top-strip {
+		margin-bottom: 22.5%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#top-strip {
+		margin-bottom: 25%;
+	}
+}
+
+
+
+/* --------------- Blink Typed.js --------------- */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1.4s infinite;
+    -moz-animation: blink 1.4s infinite;
+    animation: blink 1.4s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
 
 
 /* --------------- Blog --------------- */
