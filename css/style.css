@@ -68,9 +68,9 @@ a:hover, a:focus {
 
 /* --------------- Type --------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
 }
@@ -80,7 +80,7 @@ h2 {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #ff7b55;
+	color: #ec5656;
 }
 
 h3 {
@@ -92,6 +92,10 @@ h3 {
 p {
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+.red {
+	color: #ec5656;
 }
 
 .notavailable {
@@ -125,7 +129,7 @@ p {
 }
 
 .small {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -167,7 +171,7 @@ code {
 nav ul {
 	margin: 0 0 10px 0;
 	padding: 0;
-	color: #ff7b55;
+	color: #ec5656;
 }
 
 nav li {
@@ -217,7 +221,7 @@ header, .container {
 
 .process h3 {
 	margin-top: 40px;
-	color: #ff7b55;
+	color: #ec5656;
 }
 
 .process p {
@@ -306,11 +310,11 @@ select {
 }
 
 button, .button, .form-submit input, .search-submit {
-  border: 2px solid #ff7b55;
+  border: 2px solid #ec5656;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 1px;
-	color: #ff7b55;
+	color: #ec5656;
   line-height: normal;
   margin: 0;
   position: relative;
@@ -331,9 +335,9 @@ button, .button, .form-submit input, .search-submit {
 }
 
 button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hover, .form-submit input:focus {
-  background: #ff7b55;
+  background: #ec5656;
   color: #fff;
-  border: 2px solid #ff7b55;
+  border: 2px solid #ec5656;
 }
 
 .search-form {
@@ -503,7 +507,7 @@ figcaption a:hover {
 }
 
 #comments li:hover blockquote {
-	border-left: 3px solid #ff7b55;
+	border-left: 3px solid #ec5656;
 }
 
 #comments blockquote p {
@@ -576,7 +580,7 @@ blockquote {
 }
 
 cite {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -614,12 +618,12 @@ cite {
 .links li {
 	list-style: none;
 	margin: 0 0 5px 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	color: #ff7b55;
+	color: #ec5656;
 }
 
 .bullet {
@@ -627,7 +631,7 @@ cite {
 }
 
 .globalcontact a, .contactlink a {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -753,7 +757,7 @@ figure {
 		font-weight: 400;
 	}
 	.about h2, .about p, .services {
-		text-align: center;
+		text-align: left;
 	}
 	.project img {
 		margin: 20px auto 30px auto;
@@ -838,8 +842,8 @@ figure {
 	color:white;
 }
 
-.bigger{
-	font-size: 25px;
+.aboutText{
+	font-size: 26px;
 
 }
 .bold{
@@ -847,8 +851,8 @@ figure {
 }
 
 .leadingTitle{
-	font-weight: bold;
-	font-size: 45px;
+	font-weight: 500;
+	font-size: 40px;
 	margin-top: 40px;
 }
 
