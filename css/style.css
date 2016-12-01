@@ -43,7 +43,7 @@ body {
 a {
 	color: #ec5656;
 	text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: color 0.3s ease-in-out;
@@ -68,11 +68,11 @@ a:hover, a:focus {
 
 /* --------------- Type --------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Avenir', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  text-rendering: optimizeLegibility;
-  margin-top: 0.2rem;
+	font-family: 'Avenir', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.2rem;
 }
 
 h2 {
@@ -90,8 +90,8 @@ h3 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 .red {
@@ -290,16 +290,16 @@ header, .container {
 }
 
 #map_canvas {
-  width: 100%;
-  height: 50%;
-  background: #d6ede9;
+	width: 100%;
+	height: 50%;
+	background: #d6ede9;
 }
 
 input, textarea {
 	width: 100%;
 	border: none;
 	background: #fff;
-  border: 2px solid #eee;
+	border: 2px solid #eee;
 	font-size: 14px;
 	padding: 15px;
 	margin-bottom: 20px;
@@ -310,34 +310,34 @@ select {
 }
 
 button, .button, .form-submit input, .search-submit {
-  border: 2px solid #ec5656;
-  cursor: pointer;
-  font-weight: 400;
-  letter-spacing: 1px;
+	border: 2px solid #ec5656;
+	cursor: pointer;
+	font-weight: 400;
+	letter-spacing: 1px;
 	color: #ec5656;
-  line-height: normal;
-  margin: 0;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  -webkit-appearance: none;
+	line-height: normal;
+	margin: 0;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	display: inline-block;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 11px;
-  padding-left: 15px;
-  font-size: 14px;
-  background-color: transparent;
-  transition: background-color 300ms ease-out;
-  width: auto;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 11px;
+	padding-left: 15px;
+	font-size: 14px;
+	background-color: transparent;
+	transition: background-color 300ms ease-out;
+	width: auto;
 }
 
 button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hover, .form-submit input:focus {
-  background: #ec5656;
-  color: #fff;
-  border: 2px solid #ec5656;
+	background: #ec5656;
+	color: #fff;
+	border: 2px solid #ec5656;
 }
 
 .search-form {
@@ -373,25 +373,25 @@ button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hov
 /* --------------- Blink Typed.js --------------- */
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 1.4s infinite;
-    -moz-animation: blink 1.4s infinite;
-    animation: blink 1.4s infinite;
+	opacity: 1;
+	-webkit-animation: blink 1.4s infinite;
+	-moz-animation: blink 1.4s infinite;
+	animation: blink 1.4s infinite;
 }
 @keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 @-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 
 
@@ -559,7 +559,6 @@ figcaption a:hover {
 	text-align: right;
 }
 
-
 /* --------------- Footer --------------- */
 footer {
 	width: 100%;
@@ -572,7 +571,7 @@ footer {
 
 blockquote {
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 500;
 	padding: 0;
 	margin: 0 auto 60px auto;
 	text-align: center;
@@ -664,11 +663,11 @@ cite {
 }
 
 hr {
-  border: solid #eee;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 0;
-  height: 0;
+	border: solid #eee;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 0;
+	height: 0;
 }
 
 .divider {
@@ -688,7 +687,7 @@ hr {
 }
 
 figure {
-  max-width: 100% !important;
+	max-width: 100% !important;
 }
 
 
@@ -844,15 +843,17 @@ figure {
 
 .aboutText{
 	font-size: 26px;
-
+	font-weight: 300;
 }
+
 .bold{
 	font-weight: bold;
 }
 
 .leadingTitle{
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 40px;
 	margin-top: 40px;
+	margin-left: 3%;
 }
 
