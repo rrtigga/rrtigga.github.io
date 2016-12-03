@@ -140,6 +140,14 @@ abbr {
 code {
 	font-size: 14px;
 }
+.overrideBlack{
+	color: #555;
+}
+
+a.overrideBlack:hover {
+	text-decoration: underline;
+	color: #555;
+}
 
 
 
@@ -534,6 +542,14 @@ figcaption a:hover {
 .next {
 	float: right;
 	text-align: right;
+}
+
+.rowMargin {
+	margin-top: 5%;
+}
+
+.verticalCenter {
+	padding: 2.5rem 0.5rem;
 }
 
 /* --------------- Footer --------------- */
