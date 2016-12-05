@@ -10,7 +10,6 @@
   <link rel="shortcut icon" href="img/head.png">
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.min.css" />
-  <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/shake.min.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <script src="js/modernizr.js"></script>
@@ -81,33 +80,7 @@
     </footer>
   </section>
   <script src="js/min.js"></script>
-  <script src="js/header.js"></script>
   <script src="js/toucheffects.js"></script>
-  <script>
-    var options = {
-      offset: '.banner',
-      classes: {
-        clone:   'banner-clone',
-        stick:   'banner-stick',
-        unstick: 'banner-unstick'
-      }
-    };
-    var banner = new Headhesive('.banner', options);
-    $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 400);
-            return false;
-          }
-        }
-      });
-    });
-  </script>
   <script type='js/navigation.js'></script>
   <script type='text/javascript' src='js/skiplinkfocusfix.js'></script>
 </body>
