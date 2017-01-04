@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 
 
 
@@ -7,13 +7,11 @@ body {
 	margin: 0;
 	padding: 0 5%;
 	background: #fff;
-	font-family: Avenir,'Source Sans Pro', 'sans-serif';
+	font-family: Karla, 'sans-serif';
 	line-height: 1.7;
 	color: #555;
 	text-rendering: optimizeLegibility;
 }
-
-
 
 /* --------------- General Transitions --------------- */
 a {
@@ -44,7 +42,7 @@ a:hover, a:focus {
 
 /* --------------- Type --------------- */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
@@ -105,7 +103,7 @@ p {
 }
 
 .small {
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -167,7 +165,7 @@ nav li {
 header, .container {
 	margin: 0 auto;
 	width: 100%;
-	padding: 60px 0 30px 0;
+	padding: 40px 0 30px 0;
 }
 
 .work .row img {
@@ -328,57 +326,6 @@ button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hov
 .search-form {
 	margin-bottom: 40px;
 }
-
-
-/* --------------- Top-Strip --------------- */
-#top-strip {
-	height: 250px;
-}
-
-@media only screen and (max-width: 480px) {
-	#top-strip {
-		margin-bottom: 20%;
-	}
-}
-
-@media only screen and (max-width: 350px) {
-	#top-strip {
-		margin-bottom: 22.5%;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	#top-strip {
-		margin-bottom: 25%;
-	}
-}
-
-
-
-/* --------------- Blink Typed.js --------------- */
-
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 1.4s infinite;
-	-moz-animation: blink 1.4s infinite;
-	animation: blink 1.4s infinite;
-}
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
-}
-
 
 
 /* --------------- Blog --------------- */
@@ -572,7 +519,7 @@ blockquote {
 }
 
 cite {
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -610,7 +557,7 @@ cite {
 .links li {
 	list-style: none;
 	margin: 0 0 5px 0;
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -623,7 +570,7 @@ cite {
 }
 
 .globalcontact a, .contactlink a {
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -834,9 +781,13 @@ figure {
 	color:white;
 }
 
+.gray {
+	color: gray;
+}
+
 .aboutText{
-	font-size: 26px;
-	font-weight: 300;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .visionText{
@@ -848,11 +799,9 @@ figure {
 	font-weight: bold;
 }
 
-.leadingTitle{
-	font-weight: 400;
-	font-size: 40px;
-	margin-top: 40px;
-	margin-left: 3%;
+.title{
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .storyText {
@@ -863,3 +812,20 @@ figure {
 	margin-top: 3.5%;
 }
 
+.navItem {
+	display: inline;
+	margin: 0 10%;
+}
+
+#section-aboutme {
+	padding-top: 7.5%;
+}
+
+@media only screen and (max-width: 375px) {
+	.title {
+		font-size: 13px;
+	}
+	.navItem {
+		font-size: 13px;
+	}
+}
