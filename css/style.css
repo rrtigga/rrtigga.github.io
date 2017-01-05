@@ -816,6 +816,9 @@ figure {
 	display: inline;
 	margin: 0 10%;
 }
+.rightAlign {
+	text-align: right;
+}
 
 #section-aboutme {
 	padding-top: 7.5%;
