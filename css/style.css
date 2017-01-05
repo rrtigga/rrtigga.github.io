@@ -338,6 +338,29 @@ article footer {
 	border: 0;
 }
 
+.projectContent {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+#proj blockquote p {
+	text-align: justify;
+	color: #ec5656;
+}
+
+#proj p {
+	font-size: 17px;
+}
+
+#proj blockquote.padding {
+	text-align: justify;
+	padding-top: 5%;
+	color: #555;
+}
+#proj blockquote h2 {
+	text-align: justify;
+}
+
 .metadata {
 	font-size: 13px;
 	font-weight: 400;
@@ -499,6 +522,11 @@ figcaption a:hover {
 	padding: 2.5rem 0.5rem;
 }
 
+#projFooter {
+	font-size: 36px;
+	padding-top: 5%;
+}
+
 /* --------------- Footer --------------- */
 footer {
 	width: 100%;
@@ -624,6 +652,10 @@ hr {
 
 .notoppadding {
 	padding-top: 0;
+}
+
+.pad-top-five {
+	padding-top: 5%;
 }
 
 figure {
