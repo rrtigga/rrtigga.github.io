@@ -365,6 +365,10 @@ article footer {
 	text-align: justify;
 }
 
+#proj .largerText {
+	font-size: 22px !important;
+}
+
 .metadata {
 	font-size: 13px;
 	font-weight: 400;
