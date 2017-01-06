@@ -84,6 +84,10 @@ p {
 	text-align: left;
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 .lead {
 	font-size: 22px;
 	font-weight: 300;
