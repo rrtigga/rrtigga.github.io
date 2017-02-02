@@ -13,6 +13,7 @@
   <script src="js/modernizr.js"></script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/hover.min.css" />
+  <link rel="stylesheet" href="css/aos.css" />
   <link rel='canonical' href='http://rohittigga.com/'/>
   <link rel='shortlink' href='http://rohittigga.com/'/>
 </head>
@@ -30,15 +31,17 @@
       </div>
     </header>
   </section>
-  <section id="section-aboutme" class="section grey">
+  <section id="section-aboutme">
     <div class="container about">
       <div class="row">
-        <div class="large-7 columns aboutText">
-          <p>Yo, I'm Ro! I studied computer science at UC Davis. I'm a Product Designer and Developer in the Bay Area. I strive to be a great human-centered designer - putting people first and meeting their needs. My personal goal is to use tech and design to drive social impact. 🤗</p>
-          <a class="gray" href="about.html">Learn More →</a>
-        </div>
-        <div class="large-4 columns">
-          <img src="img/realfriends.jpg"/>
+        <img class="left profile" src="img/realfriends.jpg">
+      </div>
+      <div class="row">
+        <div class="aboutText">
+          <p>I'm Ro, a Product Designer and Developer in the Bay Area.</p>
+          <p>I studied computer science at UC Davis. I strive to be a great <span class="red">human-centered designer</span> - putting people first and meeting their needs. </p>
+          <p>My goal is to use tech and design to drive <span class="red">social impact.</span> 🤗</p>
+          <a class="gray learnMore" href="about.html">Learn More →</a>
         </div>
       </div>
     </div>
@@ -47,37 +50,43 @@
     <div align="center">
       <h1>Work</h1>
     </div>
-    <div class="wrapper">
-      <div class="masonry center row">
-        <div class="brick">
-          <a class="hvr-float" href="connect.html"><img src="img/connect-background.png"></a>
-          <h3>Connect</h3>
+    <div class="container work">
+      <div data-aos="fade-up" data-aos-duration="3000" class="row">
+        <div class="aboutText">
+          <p>Product Design and Front-end @ <a href="connect.html">Connect.</a> Designed and developed their landing page and ran user testing.</p>
+          <a href="connect.html"><img src="img/connect/hero.png"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="styell.html"><img src="img/styell.png"></a>
-          <h3>Styell</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="row rowMargin">
+        <div class="aboutText">
+          <p>Co-Founder, <a href="hittup.html">Hittup.</a> An app for spontaneity with friends.</p>
+          <a href="hittup.html"><img src="img/hittup/lastdesign.png"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="hackdavis.html"><img src="img/hackdavislogo.png"></a>
-          <h3>HackDavis</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="row rowMargin">
+        <div class="aboutText">
+          <p>Co-Founder, <a href="hackdavis.html">HackDavis.</a> I co-founded the first major collegiate hackathon at UC Davis. It was social-good focused.</p>
+          <a href="hackdavis.html"><img src="img/hackdavis/cover.jpg"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="frieyo.html"><img src="img/frieyologo.png"></a>
-          <h3 class="masonrytextFix">Frieyo</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="row rowMargin">
+        <div class="aboutText">
+          <p><a href="frieyo.html">Frieyo</a> is an iOS side project to help you meet professionals with similar interests.</p>
+          <a href="frieyo.html"><img src="img/frieyo/onboarding.png"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="hittup.html"><img src="img/hittuplogo.png"></a>
-          <h3>Hittup</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="row rowMargin">
+        <div class="aboutText">
+          <p>Online clothing retailers ignore needs of the shopper. <a href="styell.html">Styell</a> is a personalized clothing website to change that.</p>
+          <a href="styell.html"><img src="img/styell/home.png"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="pinterest.html"><img src="img/interest.png"></a>
-          <h3>Pinterest Case Study</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000" class="row rowMargin">
+        <div class="aboutText">
+          <p>Pinterest case study which addresses pain points and low retention. <a href="pinterest.html">Read it.</a></p>
+          <a href="pinterest.html"><img src="img/interest.png"></a>
         </div>
-        <div class="brick">
-          <a class="hvr-float" href="getdisciplined.html"><img src="img/getdisciplined.png"></a>
-          <h3>GetDisciplined</h3>
-        </div>
-      </div> 
+      </div>
     </div>
   </section>
   <section id="section-contact" class="section white">
@@ -114,10 +123,11 @@
   <script src="js/toucheffects.js"></script>
   <script type='text/javascript' src='js/skiplinkfocusfix.js'></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/typed.js"></script>
   <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/aos.js"></script>
   <script>
     smoothScroll.init();
+    AOS.init();
   </script>
 </body>
 </html>

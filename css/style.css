@@ -824,13 +824,27 @@ figure {
 .gray {
 	color: gray;
 }
+ 
+.aboutText {
+	padding-top: 1%;
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 20px;
+}
 
-.aboutText{
+
+@media only screen and (max-width: 480px) {
+	.aboutText {
+		font-size: 24px;
+	}
+}
+
+.learnMore {
 	font-size: 20px;
 	font-weight: 500;
 }
 
-.visionText{
+.visionText {
 	font-size: 29px;
 	font-weight: 300;
 }
@@ -842,6 +856,12 @@ figure {
 .title{
 	font-weight: bold;
 	font-size: 18px;
+}
+
+.profile {
+	max-width: 200px;
+	width: 200px;
+	height: auto;
 }
 
 .storyText {
@@ -861,7 +881,11 @@ figure {
 }
 
 #section-aboutme {
-	padding-top: 7.5%;
+	margin: 20px 15px 0px;
+}
+
+#section-work .aboutText {
+	margin: 0 15px;
 }
 
 @media only screen and (max-width: 375px) {
