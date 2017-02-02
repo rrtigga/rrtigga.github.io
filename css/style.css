@@ -826,7 +826,7 @@ figure {
 }
 
 .aboutText{
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -893,7 +893,7 @@ figure {
 	column-fill: initial;
 }
 
-.masonry h3 {
+.masonry h3,p {
 	text-align: left;
 }
 .masonry .brick {
