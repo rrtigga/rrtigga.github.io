@@ -31,11 +31,11 @@ a:hover, a:focus {
 }
 
 ::-moz-selection {
-	background: rgba(123, 255, 85, 0.8);
+	background: #ec5656;
 	color: #fff;
 }
 ::selection {
-	background: rgba(123, 255, 85, 0.8);
+	background: #ec5656;
 	color: #fff;
 }
 
