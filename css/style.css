@@ -332,6 +332,12 @@ button:hover, button:focus, .button:hover, .button:focus, .form-submit input:hov
 	margin-bottom: 40px;
 }
 
+.topPrototype {
+	font-size: 18px !important;
+	padding: 10px !important;
+	margin-bottom: 5% !important;
+}
+
 
 /* --------------- Blog --------------- */
 article {
