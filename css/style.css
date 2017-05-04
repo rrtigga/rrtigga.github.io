@@ -355,7 +355,7 @@ article footer {
 }
 
 #proj blockquote p {
-	text-align: justify;
+	text-align: left;
 	color: #ec5656;
 }
 
@@ -364,12 +364,12 @@ article footer {
 }
 
 #proj blockquote.padding {
-	text-align: justify;
+	text-align: left;
 	padding-top: 5%;
 	color: #555;
 }
 #proj blockquote h2 {
-	text-align: justify;
+	text-align: left;
 }
 
 #proj .largerText {
