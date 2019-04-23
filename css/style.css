@@ -8,7 +8,7 @@ body {
 	margin: 0;
 	padding: 0 5%;
 	background: #fff;
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	line-height: 1.7;
 	color: #555;
 	text-rendering: optimizeLegibility;
@@ -43,7 +43,7 @@ a:hover, a:focus {
 
 /* --------------- Type --------------- */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	font-style: normal;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
@@ -108,7 +108,7 @@ p {
 }
 
 .small {
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -562,7 +562,7 @@ blockquote {
 }
 
 cite {
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -600,7 +600,7 @@ cite {
 .links li {
 	list-style: none;
 	margin: 0 0 5px 0;
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -613,7 +613,7 @@ cite {
 }
 
 .globalcontact a, .contactlink a {
-	font-family: 'apercu-regular', 'Karla', 'sans-serif';
+	font-family: 'Karla', 'sans-serif';
 	font-size: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
